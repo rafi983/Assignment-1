@@ -9,6 +9,16 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
 li {
   list-style: none;
 }
@@ -170,4 +180,77 @@ section {
 .recipie__container .recipie p {
   font-weight: 300;
   padding: 1.7rem 0;
+}
+
+.section-meals {
+  padding: 0;
+}
+.section-meals h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: grey;
+  text-align: center;
+}
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
+.reviews h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: grey;
+}
+.review__container {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.review-1,
+.review-2 {
+  width: 45%;
+  box-shadow: 5px 7px 40px gray;
+  margin-left: 3rem;
+  padding: 3rem;
+}
+.review-1 .food-reviewer img,
+.review-2 .food-reviewer img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin-left: 12rem;
+}
+.review-1 figcaption,
+.review-2 figcaption {
+  margin-top: 2rem;
+}
+.review-1 p,
+.review-2 p {
+  text-align: right;
+  margin-right: 0.2rem;
 }
