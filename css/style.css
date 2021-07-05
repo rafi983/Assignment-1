@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+  padding: 0.8rem 2rem;
+  background-color: gainsboro;
+}
+
+header nav ul {
+  display: flex;
+  margin-right: 3rem;
+  margin-top: 0.3rem;
+}
+header nav ul a li {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #345482;
+  text-transform: uppercase;
+  transition: color 0.3s;
+}
+header nav ul a li:hover {
+  color: #252525;
+}
+header .header-logo {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+section {
+  margin: 7rem 0;
+}
+.home__page {
+  display: flex;
+}
+.home__page-left,
+.home__page-right {
+  width: 50%;
+}
+.home__page-left {
+  margin-top: 10rem;
+  margin-left: 3.5rem;
+}
+.home__page-left h1 {
+  font-size: 3.8rem;
+  margin-bottom: 3rem;
+  color: gray;
+}
+.home__page .home__page-left .skip {
+  color: orange;
+}
+.home__page .home__page-left p {
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: 400;
+}
+.btn {
+  margin-top: 1.8rem;
+  color: #fff;
+  background-image: linear-gradient(tomato, orange);
+  border: none;
+  outline: none;
+  padding: 1.4rem 3.3rem;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  cursor: pointer;
+}
+.home__page-right img {
+  width: 100%;
+}
+.about__page {
+  padding: 3rem 15rem;
+  background-image: url("../images/shapes/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about__page__container {
+  display: flex;
+  padding: 3rem 0;
+}
+.about__page__container .about__page__container-left,
+.about__page__container .about__page__container-right {
+  width: 50%;
+}
+.about__page__container-left img {
+  width: 70%;
+  margin-bottom: 0%;
+}
+.about__page__container-left {
+  position: relative;
+}
+.about__page__container-left img {
+  position: absolute;
+  left: 0;
+  bottom: -5.95rem;
+}
+.about__page__container-right {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.about__page__container-right h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: gray;
+}
+.about__page__container-right p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  width: 590px;
+}
+.about__page__container-right .btn {
+  margin-top: 4rem;
+  font-size: 1.3rem;
+}
+.recipie__page .recipie__heading {
+  text-align: center;
+}
+.recipie__page .recipie__heading h2 {
+  font-size: 2rem;
+  color: grey;
+}
+.recipie__page .recipie__heading p {
+  margin-top: 1.2rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+}
+.recipie__container {
+  display: flex;
+  margin: 3rem 3rem;
+}
+.recipie__container .recipie {
+  width: 28%;
+  margin-left: 3.8rem;
+  padding: 1.2rem 1.2rem;
+  border-radius: 2.5rem;
+}
+.recipie__container .recipie img {
+  width: 100%;
+}
+.recipie__container .recipie .recipie__pic {
+  border-radius: 2rem;
+}
+.recipie__container .recipie {
+  box-shadow: 5px 7px 40px gray;
+}
+.recipie__container .recipie h3 {
+  margin-top: 1.8rem;
+  font-size: 2rem;
+}
+.recipie__container .recipie p {
+  font-weight: 300;
+  padding: 1.7rem 0;
+}
