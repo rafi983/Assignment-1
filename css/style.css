@@ -254,3 +254,41 @@ section {
   text-align: right;
   margin-right: 0.2rem;
 }
+.social .social__fame {
+  display: flex;
+  box-shadow: 5px 7px 45px gray;
+  width: 80%;
+  padding: 6rem 8rem;
+  margin-left: 11rem;
+  border-radius: 2.5rem;
+  justify-content: space-between;
+}
+.social .social__fame .youtube {
+  margin-left: 2rem;
+}
+.youtube h1,
+.instagram h1,
+.dribble h1 {
+  font-size: 3rem;
+}
+.youtube h3,
+.instagram h3,
+.dribble h3 {
+  font-weight: 400;
+}
+footer {
+  height: 16rem;
+  background-color: blueviolet;
+  text-align: center;
+  padding: 3rem 0;
+}
+.footer__heading-I {
+  color: orange;
+}
+.footer__heading-II {
+  color: grey;
+}
+footer p {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
