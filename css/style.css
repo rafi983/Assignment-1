@@ -74,7 +74,7 @@ section {
   margin-bottom: 3rem;
   color: gray;
 }
-.home__page .home__page-left .skip {
+.home__page .home__page-left #skip {
   color: orange;
 }
 .home__page .home__page-left p {
@@ -114,7 +114,6 @@ section {
 }
 .about__page__container-left img {
   width: 70%;
-  margin-bottom: 0%;
 }
 .about__page__container-left {
   position: relative;
@@ -149,6 +148,19 @@ section {
   font-size: 2rem;
   color: grey;
 }
+.recipie__page .recipie__heading h2 {
+  position: relative;
+}
+.recipie__page .recipie__heading h2::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  height: 0.2rem;
+  background-color: #e67e22;
+  width: 90px;
+  margin-left: 44.7rem;
+  margin-top: 0.3rem;
+}
 .recipie__page .recipie__heading p {
   margin-top: 1.2rem;
   font-weight: 200;
@@ -171,7 +183,7 @@ section {
   border-radius: 2rem;
 }
 .recipie__container .recipie {
-  box-shadow: 5px 7px 40px gray;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
 }
 .recipie__container .recipie h3 {
   margin-top: 1.8rem;
@@ -182,9 +194,20 @@ section {
   padding: 1.7rem 0;
 }
 
-.section-meals {
-  padding: 0;
+.section-meals h2 {
+  position: relative;
 }
+.section-meals h2::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  height: 0.2rem;
+  background-color: #e67e22;
+  width: 100px;
+  margin-left: 43rem;
+  margin-top: 0.3rem;
+}
+
 .section-meals h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -225,6 +248,17 @@ section {
   text-align: center;
   font-size: 3rem;
   color: grey;
+  position: relative;
+}
+.reviews h2::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  height: 0.2rem;
+  background-color: #e67e22;
+  width: 90px;
+  margin-left: 44.7rem;
+  margin-top: 0.3rem;
 }
 .review__container {
   margin-top: 3rem;
@@ -234,7 +268,7 @@ section {
 .review-1,
 .review-2 {
   width: 45%;
-  box-shadow: 5px 7px 40px gray;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
   margin-left: 3rem;
   padding: 3rem;
   border-radius: 1.3rem;
@@ -257,7 +291,7 @@ section {
 }
 .social .social__fame {
   display: flex;
-  box-shadow: 5px 7px 45px gray;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.089);
   width: 80%;
   padding: 6rem 8rem;
   margin-left: 11rem;
