@@ -147,19 +147,8 @@ section {
 .recipie__page .recipie__heading h2 {
   font-size: 2rem;
   color: grey;
-  position: relative;
 }
 
-.recipie__page .recipie__heading h2::after {
-  content: " ";
-  position: absolute;
-  display: block;
-  height: 0.2rem;
-  background-color: #e67e22;
-  width: 90px;
-  margin-left: 44.7rem;
-  margin-top: 0.3rem;
-}
 .recipie__page .recipie__heading p {
   margin-top: 1.2rem;
   font-weight: 200;
@@ -198,19 +187,8 @@ section {
   margin-bottom: 2rem;
   color: grey;
   text-align: center;
-  position: relative;
 }
 
-.section-meals h2::after {
-  content: " ";
-  position: absolute;
-  display: block;
-  height: 0.2rem;
-  background-color: #e67e22;
-  width: 100px;
-  margin-left: 43rem;
-  margin-top: 0.3rem;
-}
 .meals-showcase {
   list-style: none;
   width: 100%;
@@ -245,18 +223,8 @@ section {
   text-align: center;
   font-size: 3rem;
   color: grey;
-  position: relative;
 }
-.reviews h2::after {
-  content: " ";
-  position: absolute;
-  display: block;
-  height: 0.2rem;
-  background-color: #e67e22;
-  width: 90px;
-  margin-left: 44.7rem;
-  margin-top: 0.3rem;
-}
+
 .review__container {
   margin-top: 3rem;
   display: flex;
