@@ -147,10 +147,9 @@ section {
 .recipie__page .recipie__heading h2 {
   font-size: 2rem;
   color: grey;
-}
-.recipie__page .recipie__heading h2 {
   position: relative;
 }
+
 .recipie__page .recipie__heading h2::after {
   content: " ";
   position: absolute;
@@ -195,8 +194,13 @@ section {
 }
 
 .section-meals h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: grey;
+  text-align: center;
   position: relative;
 }
+
 .section-meals h2::after {
   content: " ";
   position: absolute;
@@ -206,13 +210,6 @@ section {
   width: 100px;
   margin-left: 43rem;
   margin-top: 0.3rem;
-}
-
-.section-meals h2 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
-  color: grey;
-  text-align: center;
 }
 .meals-showcase {
   list-style: none;
